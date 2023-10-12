@@ -1,0 +1,64 @@
+:root {
+  --document: Times New Roman, Times, Baskerville, Georgia, serif; 
+}
+
+@page {
+  size: 8.5in 11in;
+  margin: 0.5in;
+}
+
+@media print {
+  body {
+  font-family: var(--document);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom: 0.5px;
+}
+
+h2, h4, th, .heading, .linkedin {
+  text-align: center;
+}
+
+.p1-header, .p2-header {
+  display: flex;
+}
+
+.p1-header {
+  justify-content: space-between;
+}
+
+.p2-header {
+  justify-content: space-around;
+}
+
+.date {
+  float: right;
+}
+
+.statement {
+  line-height: 1.2;
+}
+
+.company, .position, .heading, .p2-name {
+  font-weight: bold;
+}
+
+.company, .heading {
+  text-transform: uppercase;
+}
+
+table, th, td {
+  white-space: normal;
+  margin: 0 auto;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+}
