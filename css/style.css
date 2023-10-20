@@ -1,5 +1,5 @@
 :root {
-  --document: Times New Roman, Times, Baskerville, Georgia, serif; 
+  --document: Times New Roman, Times, Baskerville, Georgia, serif;
 }
 
 @page {
@@ -17,7 +17,7 @@ a:link {
 }
 
 h2 {
-  margin-bottom: 0.5px;
+  margin-bottom: 0.002202643172in;
 }
 
 h2, h4, th, .heading, .linkedin {
