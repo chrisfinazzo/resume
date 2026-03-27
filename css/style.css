@@ -1,9 +1,10 @@
 :root {
   --document: Times New Roman, Times, Baskerville, Georgia, serif;
+  --layout: portrait letter;
 }
 
 @page {
-  size: 8.5in 11in;
+  size: var(--layout);
   margin: 0.5in;
 }
 
